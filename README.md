@@ -4,7 +4,7 @@ python库(numpy,pandas...)学习
 
 # libraries
 
-* [01Numpy](./01Numpy./01Numpy)
+* [01Numpy](./01Numpy)
 
 * [02Pandas](./02Pandas)
 
