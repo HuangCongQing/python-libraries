@@ -1,6 +1,8 @@
 # python-libraries
 python库(numpy,pandas...)学习
 
+加载github jupyter文件网址：https://nbviewer.jupyter.org/
+
 
 # libraries
 
