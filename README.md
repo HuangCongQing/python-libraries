@@ -6,9 +6,9 @@ python库(numpy,pandas...)学习
 注：开始用py文件写的，后面用的jupyter写的，可以写文档，更方便日后看，更容易看懂！
 # libraries
 
-* [01Numpy](./01Numpy)
+#### [01Numpy](./01Numpy)
 
-[学习莫凡讲解视频](https://www.bilibili.com/video/av16378934/)
+1. [学习莫凡讲解视频](https://www.bilibili.com/video/av16378934/)
 
 ```
 C =np.concatenate((A,B,B,A),axis=0) #行操作，纵向合并
@@ -17,10 +17,12 @@ C =np.concatenate((A,B,B,A), axis=1) #列操作，横向合并
 ```
 
 
-* [02Pandas](./02Pandas)
 
-* [03Matplotlib](./03Matplotlib)
+####  [02Pandas](./02Pandas)
 
+####  [03Matplotlib](./03Matplotlib)
+
+学习素材：[给深度学习入门者的Python快速教程 - numpy和Matplotlib篇](https://zhuanlan.zhihu.com/p/24309547)
 
 ...
 
