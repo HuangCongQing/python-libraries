@@ -35,6 +35,7 @@ C =np.concatenate((A,B,B,A), axis=1) #列操作，横向合并
 
 
 
+###E [05Scikit-learn](./05Scikit-learn)
 
 
 ------------
