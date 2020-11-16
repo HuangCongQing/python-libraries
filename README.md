@@ -28,7 +28,7 @@ C =np.concatenate((A,B,B,A), axis=1) #列操作，横向合并
 ####  [03Matplotlib](./03Matplotlib)
 * 画图-可视化工具
 
-###E [04Seaborn](./04Seaborn)
+#### [04Seaborn](./04Seaborn)
 
 * Seaborn基于Matplotlib
     * 更简洁的语法
@@ -37,7 +37,7 @@ C =np.concatenate((A,B,B,A), axis=1) #列操作，横向合并
 
 
 
-###E [05Scikit-learn](./05Scikit-learn)
+#### [05Scikit-learn](./05Scikit-learn)
 
 
 ------------
