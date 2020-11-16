@@ -46,7 +46,15 @@ C =np.concatenate((A,B,B,A), axis=1) #列操作，横向合并
 学习素材：[给深度学习入门者的Python快速教程 - numpy和Matplotlib篇](https://zhuanlan.zhihu.com/p/24309547)
 
 ...
+### Install
 
+```
+# cv2
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+
+
+
+````
 
 
 
