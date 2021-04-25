@@ -4,11 +4,12 @@ Author: HCQ
 Company(School): UCAS
 Email: 1756260160@qq.com
 Date: 2021-04-25 19:49:38
-LastEditTime: 2021-04-25 19:56:47
+LastEditTime: 2021-04-25 19:57:55
 FilePath: /python-libraries/01Numpy/np_project.py
 '''
 import numpy as np
 
+# 通过下标列表获取np数据
 # A = [[ 3  4  5  6]
 #  [ 7  8  9 10]
 #  [11 12 13 14]]
