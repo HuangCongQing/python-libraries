@@ -6,6 +6,10 @@ python库(numpy,pandas...)学习
 注：开始用py文件写的，后面用的jupyter写的，可以写文档，更方便日后看，更容易看懂！
 **环境： win7 python35**
 
+
+
+* python基础：https://github.com/HuangCongQing/Python
+
 # libraries
 
 #### [01Numpy](./01Numpy)
