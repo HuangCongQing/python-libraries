@@ -70,7 +70,7 @@ dependencies:
   - pycairo=1.13.3=py27hea6d626_0
   - pyparsing=2.4.7=py_0
   - pyqt=5.6.0=py27h22d08a2_6
-  - python=2.7.18=h15b4118_1
+  - python=3.6.12=hcff3b4d_2
   - python-dateutil=2.8.1=py_0
   - pytz=2020.1=py_0
   - qt=5.6.2=2
