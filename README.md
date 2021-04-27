@@ -10,7 +10,13 @@ python库(numpy,pandas...)学习
 
 * python基础：https://github.com/HuangCongQing/Python
 
+
+
 # libraries
+
+* 虚拟环境安装 ： [anaconda_environments](anaconda_environments)
+    * tensorflow=1.11.0
+    * torch==1.4.0
 
 #### [01Numpy](./01Numpy)
 
