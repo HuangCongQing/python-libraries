@@ -1,10 +1,10 @@
 '''
-Description: 
+Description: 把jupyter导出来的html文件转成ipynb文件 https://blog.csdn.net/qq_42658739/article/details/112039476
 Author: HCQ
 Company(School): UCAS
 Email: 1756260160@qq.com
 Date: 2021-05-22 17:26:53
-LastEditTime: 2021-05-22 17:27:27
+LastEditTime: 2021-05-22 17:29:02
 FilePath: /python-libraries/html_to_ipynb.py
 '''
 from bs4 import BeautifulSoup
