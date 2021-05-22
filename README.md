@@ -33,11 +33,18 @@ C =np.concatenate((A,B,B,A), axis=1) #列操作，横向合并
 
 #### [03Matplotlib](./03Matplotlib)
 
-* 画图-可视化工具
-* 笔记：ttps://www.yuque.com/huangzhongqing/lang/gv9n6f
+画图-可视化工具
+
+笔记：ttps://www.yuque.com/huangzhongqing/lang/gv9n6f
+
+菊安酱和菜菜的Python可视化
+
+中文版[数据分析最有用的 Top 50 Matplotlib 图（附完整的Python代码](https://cloud.tencent.com/developer/article/1535159#:~:text=%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%9C%80%E6%9C%89%E7%94%A8%E7%9A%84%20Top%2050%20Matplotlib%20%E5%9B%BE%EF%BC%88%E9%99%84%E5%AE%8C%E6%95%B4%E7%9A%84Python%E4%BB%A3%E7%A0%81%EF%BC%89%20%28%E4%B8%8A%29%201%201.%E5%85%B3%E8%81%94,6%206.%E5%8F%98%E5%8C%96%207%207.%E5%88%86%E7%BB%84%208%201.%E6%95%A3%E7%82%B9%E5%9B%BE%209%202.%E5%B8%A6%E8%BE%B9%E7%95%8C%E7%9A%84%E6%B0%94%E6%B3%A1%E5%9B%BE.)
+
+英文原版：[https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/)
 
 
-
+* 代码目录： [03Matplotlib/Python可视化Top50Matplotlib](03Matplotlib/Python可视化Top50Matplotlib)
 
 #### [04Seaborn](./04Seaborn)
 
