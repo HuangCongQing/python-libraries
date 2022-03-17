@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2021-06-09 10:04:04
- * @LastEditTime: 2021-08-25 15:43:20
+ * @LastEditTime: 2022-03-17 18:20:18
  * @FilePath: /python-libraries/anaconda_environments/anaconda_environments.md
 -->
 
@@ -41,9 +41,13 @@ conda env create -f environment.yml -p /home/user/anaconda3/envs/ssd
 ```
 ├── py36_common.yml
 ├── py36_tf1.11.yml
+├── py36_torch1.2_cuda10.0.yml   pcdet
 └── py36_torch1.4.yml
 
 ```
+## py36_torch1.2_cuda10.0.yml   
+pcdet使用
+
 
 ## py36_torch1.4
 
@@ -64,3 +68,9 @@ Pillow==8.2.0
 h5py==2.10.0
 
 ```
+
+## python37_torch1.5_20220317.yml
+py37_torch1.5
+open-mmlab
+
+
