@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2021-06-09 10:04:04
- * @LastEditTime: 2022-03-17 19:24:17
+ * @LastEditTime: 2022-03-23 16:37:28
  * @FilePath: /python-libraries/anaconda_environments/anaconda_environments.md
 -->
 
@@ -47,8 +47,10 @@ conda env create -f environment.yml -p /home/user/anaconda3/envs/ssd
 ```
 
 ## py36_torch1.4(torch pcdet)
-
-
+anaconda_environments/py36_torch1.4.yml
+* torch1.4
+* cuda10.1
+* spconv1.2
 
 ## py36_torch1.2_cuda10.0.yml  （SSD）
 * ssd代码环境：https://github.com/HuangCongQing/ssd-pytorch
