@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2021-06-09 10:04:04
- * @LastEditTime: 2022-03-17 19:08:44
+ * @LastEditTime: 2022-03-17 19:24:17
  * @FilePath: /python-libraries/anaconda_environments/anaconda_environments.md
 -->
 
@@ -24,7 +24,7 @@ conda env export --file  /home/hcq/pointcloud/python-libraries/anaconda_environm
 conda env export --file  /home/hcq/pointcloud/python-libraries/anaconda_environments/py36_tf.yml
 conda env export --file  /home/hcq/pointcloud/python-libraries/anaconda_environments/py36_torch.yml
 
-## 导入
+## 导入(先退出其他环境，包括base)
 
 conda env create -f environment.yml
 
