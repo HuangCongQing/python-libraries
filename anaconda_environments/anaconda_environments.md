@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2021-06-09 10:04:04
- * @LastEditTime: 2022-03-23 16:37:28
+ * @LastEditTime: 2022-03-28 10:09:12
  * @FilePath: /python-libraries/anaconda_environments/anaconda_environments.md
 -->
 
@@ -73,3 +73,13 @@ py37_torch1.5
 open-mmlab
 
 
+## torch1.5_cuda10.2_spconv1.2(py37) 未验证
+* centerpoint
+
+```
+conda create -n centerpoint python=3.7
+
+conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.2 -c pytorch
+
+
+```
