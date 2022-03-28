@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2021-06-09 10:04:04
- * @LastEditTime: 2022-03-28 10:09:12
+ * @LastEditTime: 2022-03-28 16:06:52
  * @FilePath: /python-libraries/anaconda_environments/anaconda_environments.md
 -->
 
@@ -29,9 +29,9 @@ conda env export --file  /home/hcq/pointcloud/python-libraries/anaconda_environm
 conda env create -f environment.yml
 
 # 指定环境安装路径
-conda env create -f environment.yml -p /home/user/anaconda3/envs/env_name
+conda env create -f environment.yml -p ~/anaconda3/envs/env_name
 ### example
-conda env create -f environment.yml -p /home/user/anaconda3/envs/ssd
+conda env create -f environment.yml -p ~/anaconda3/envs/ssd
 
 ```
 
