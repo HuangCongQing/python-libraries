@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2021-06-09 10:04:04
- * @LastEditTime: 2022-03-17 19:08:44
+ * @LastEditTime: 2022-03-28 16:06:52
  * @FilePath: /python-libraries/anaconda_environments/anaconda_environments.md
 -->
 
@@ -24,14 +24,14 @@ conda env export --file  /home/hcq/pointcloud/python-libraries/anaconda_environm
 conda env export --file  /home/hcq/pointcloud/python-libraries/anaconda_environments/py36_tf.yml
 conda env export --file  /home/hcq/pointcloud/python-libraries/anaconda_environments/py36_torch.yml
 
-## 导入
+## 导入(先退出其他环境，包括base)
 
 conda env create -f environment.yml
 
 # 指定环境安装路径
-conda env create -f environment.yml -p /home/user/anaconda3/envs/env_name
+conda env create -f environment.yml -p ~/anaconda3/envs/env_name
 ### example
-conda env create -f environment.yml -p /home/user/anaconda3/envs/ssd
+conda env create -f environment.yml -p ~/anaconda3/envs/ssd
 
 ```
 
@@ -47,8 +47,10 @@ conda env create -f environment.yml -p /home/user/anaconda3/envs/ssd
 ```
 
 ## py36_torch1.4(torch pcdet)
-
-
+anaconda_environments/py36_torch1.4.yml
+* torch1.4
+* cuda10.1
+* spconv1.2
 
 ## py36_torch1.2_cuda10.0.yml  （SSD）
 * ssd代码环境：https://github.com/HuangCongQing/ssd-pytorch
@@ -71,3 +73,13 @@ py37_torch1.5
 open-mmlab
 
 
+## torch1.5_cuda10.2_spconv1.2(py37) 未验证
+* centerpoint
+
+```
+conda create -n centerpoint python=3.7
+
+conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.2 -c pytorch
+
+
+```
