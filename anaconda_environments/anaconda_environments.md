@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2021-06-09 10:04:04
- * @LastEditTime: 2022-03-28 16:06:52
+ * @LastEditTime: 2022-05-03 21:35:33
  * @FilePath: /python-libraries/anaconda_environments/anaconda_environments.md
 -->
 
@@ -81,5 +81,26 @@ conda create -n centerpoint python=3.7
 
 conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.2 -c pytorch
 
+
+```
+
+## torch1.9_cuda11.1_spconv111_py38.yaml (pcdet-mayavi已安装) 20220503
+
+* Ubuntu 20.04(cuda11.4)
+* python 3.8
+* pytorch 1.9
+* CUDA 11.1（pytorch 没有支持cuda11.4的）
+
+https://www.yuque.com/huangzhongqing/hre6tf/kdsn8f
+
+
+```
+#创建指定python版本下包含某些包的环境
+conda create --name pcdet python=3.8 numpy scipy
+
+pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+
+# CUDA 11.1  spconv
+pip install spconv-cu111
 
 ```
