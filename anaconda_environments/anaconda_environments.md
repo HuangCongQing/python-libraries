@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2021-06-09 10:04:04
- * @LastEditTime: 2022-05-03 21:35:33
+ * @LastEditTime: 2022-07-23 16:46:43
  * @FilePath: /python-libraries/anaconda_environments/anaconda_environments.md
 -->
 
@@ -86,7 +86,7 @@ conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.2 -c pytorch
 
 ## torch1.9_cuda11.1_spconv111_py38.yaml (pcdet-mayavi已安装) 20220503
 
-* Ubuntu 20.04(cuda11.4)
+* Ubuntu 20.04(cuda11.4)  **注意，本电脑自己安装的cuda11.4**
 * python 3.8
 * pytorch 1.9
 * CUDA 11.1（pytorch 没有支持cuda11.4的）
@@ -104,3 +104,5 @@ pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f ht
 pip install spconv-cu111
 
 ```
+
+## TODO 
