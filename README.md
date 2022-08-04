@@ -63,11 +63,8 @@ C =np.concatenate((A,B,B,A), axis=1) #列操作，横向合并
 ### Install
 
 ```
-# cv2
+# cv2(镜像下载)
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
-
-
-
 ````
 
 ---
