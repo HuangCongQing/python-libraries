@@ -2,6 +2,8 @@
 
 python库(numpy,pandas...)学习
 
+总结文档：https://www.yuque.com/huangzhongqing/lang/vl43ut
+
 加载github jupyter文件网址：https://nbviewer.jupyter.org/
 
 注：开始用py文件写的，后面用的jupyter写的，可以写文档，更方便日后看，更容易看懂！
