@@ -1,10 +1,11 @@
 '''
-Description:  因为numba内置的函数本身是个装饰器，所以只要在自己定义好的函数前面加个@numba.jit()就行，简单上手。下面以一个求和函数为例 https://www.yuque.com/huangzhongqing/hpc/rmwgv2
+Description:  因为numba内置的函数本身是个装饰器，所以只要在自己定义好的函数前面加个@numba.jit()就行，简单上手。下面以一个求和函数为例 
+https://www.yuque.com/huangzhongqing/hpc/rmwgv2
 Author: HCQ
 Company(School): UCAS
 Email: 1756260160@qq.com
 Date: 2022-08-07 20:36:27
-LastEditTime: 2022-08-07 20:36:29
+LastEditTime: 2022-08-07 21:19:20
 FilePath: /python-libraries/07numba/01for循环对比测试.py
 '''
 import numba
