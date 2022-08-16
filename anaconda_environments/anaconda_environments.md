@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2021-06-09 10:04:04
- * @LastEditTime: 2022-07-23 16:46:43
+ * @LastEditTime: 2022-08-16 14:31:11
  * @FilePath: /python-libraries/anaconda_environments/anaconda_environments.md
 -->
 
@@ -105,4 +105,4 @@ pip install spconv-cu111
 
 ```
 
-## TODO 
+## py38_torh1.10.1_waymo_38_202208.yml(waymo) 202208
