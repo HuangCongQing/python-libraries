@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2021-06-09 10:04:04
- * @LastEditTime: 2022-08-30 19:56:38
+ * @LastEditTime: 2022-08-30 20:20:15
  * @FilePath: /python-libraries/anaconda_environments/anaconda_environments.md
 -->
 
@@ -68,7 +68,7 @@ h5py==2.10.0
 
 ```
 
-## py37_torch1.5_20220317.yml(open-mmlab)
+## py37_torch1.5_20220317.yml(open-mmlab)mmdetection3d
 py37_torch1.5
 open-mmlab
 
@@ -105,8 +105,14 @@ pip install spconv-cu111
 
 ```
 
-## py38_torh1.10.1_waymo_38_202208.yml(waymo) 202208
+## py38_torch1.10.1_waymo_38_202208.yml(waymo) 202208 TODO
 
 
-## mmmdetection3d
+## py38_torch1.11.0_20220901.yml(mmmdetection3d(mm3d))
 
+```
+conda create --name openmmlab python=3.8 -y
+conda activate openmmlab
+# CUDA 11.3
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+```
