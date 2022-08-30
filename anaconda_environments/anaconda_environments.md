@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2021-06-09 10:04:04
- * @LastEditTime: 2022-08-16 14:31:11
+ * @LastEditTime: 2022-08-30 19:56:38
  * @FilePath: /python-libraries/anaconda_environments/anaconda_environments.md
 -->
 
@@ -68,7 +68,7 @@ h5py==2.10.0
 
 ```
 
-## python37_torch1.5_20220317.yml(open-mmlab)
+## py37_torch1.5_20220317.yml(open-mmlab)
 py37_torch1.5
 open-mmlab
 
@@ -106,3 +106,7 @@ pip install spconv-cu111
 ```
 
 ## py38_torh1.10.1_waymo_38_202208.yml(waymo) 202208
+
+
+## mmmdetection3d
+
