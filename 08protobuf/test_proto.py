@@ -4,14 +4,14 @@ Author: HCQ
 Company(School): UCAS
 Email: 1756260160@qq.com
 Date: 2023-09-12 10:49:26
-LastEditTime: 2023-09-12 11:09:37
+LastEditTime: 2023-09-14 11:17:06
 FilePath: /python-libraries/08protobuf/test_proto.py
 '''
 #coding=utf-8
 # file: test_proto.py
 
 # import testProto.person_pb2
-import testProto.person_pb2
+from testProto.person_pb2 import one
 
 def setInfo(a_info):
     # 
@@ -35,11 +35,12 @@ def setInfo(a_info):
     return a_info
 
 # 传入数据
-first_info = testProto.person_pb2.one()
-one_info = setInfo(first_info)
+# first_info = testProto.person_pb2.one()
+first_info = one()
+one_info = setInfo(first_info) # 填充数据
 print(one_info)
-proto_info = one_info.SerializeToString() # 序列成字符串
-print(proto_info)
+proto_info_msg = one_info.SerializeToString() # 序列成字符串
+print(proto_info_msg)
 
 # 获取数据
 def getInfo(wanted_info):
@@ -51,8 +52,8 @@ def getInfo(wanted_info):
     print("his phoneType:", wanted_info.people.number.type)
     if wanted_info.people.number.type == wanted_info.people.PhoneType.HOME:
         print("his phonetype: HOME")
-
-first_parsed = testProto.person_pb2.one()
-first_parsed.ParseFromString(proto_info) # 从字符串中解析
+# 解析=====================
+first_parsed = one() # 定义输出数据
+first_parsed.ParseFromString(proto_info_msg) # 从字符串中解析
 # print(first_parsed)
-getInfo(first_parsed)
+getInfo(first_parsed)  # 输出数据
