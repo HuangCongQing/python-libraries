@@ -1,16 +1,12 @@
 '''
-Description: proto测试 https://www.yuque.com/huangzhongqing/lang/mb3v5givoev1m2n7#PVIOJ
+Description:  保存proto数据成文件
 Author: HCQ
 Company(School): UCAS
 Email: 1756260160@qq.com
 Date: 2023-09-12 10:49:26
-LastEditTime: 2023-09-15 17:12:46
-FilePath: /python-libraries/08protobuf/test_proto.py
+LastEditTime: 2023-09-15 17:09:53
+FilePath: /python-libraries/08protobuf/write_proto.py
 '''
-#coding=utf-8
-# file: test_proto.py
-
-# import testProto.person_pb2
 from testProto.person_pb2 import one
 import numpy as np
 
@@ -56,11 +52,3 @@ print("传入数据:", one_info)
 proto_info_msg = one_info.SerializeToString() # 序列成字符串(二进制)
 print("序列成字符串(二进制):", proto_info_msg)
 np.save("filename.npy",proto_info_msg) #<<<<<<<<<<<<<<<<<<<<<<<保存二进制
-
-# 解析=====================
-print("解析=====================")
-proto_info_msg = np.load("filename.npy") #<<<<<<<<<<<<<<<<<<<<<<<读取二进制
-first_parsed = one() # 定义输出数据
-first_parsed.ParseFromString(proto_info_msg) # 从字符串中(二进制)反序列化解析
-# print(first_parsed)
-getInfo(first_parsed)  # 输出数据
