@@ -4,7 +4,7 @@ Author: HCQ
 Company(School): UCAS
 Email: 1756260160@qq.com
 Date: 2023-09-12 10:49:26
-LastEditTime: 2023-09-15 17:10:32
+LastEditTime: 2023-09-15 17:26:11
 FilePath: /python-libraries/08protobuf/read_proto.py
 '''
 
@@ -32,5 +32,5 @@ print("解析=====================")
 proto_info_msg = np.load("filename.npy") #<<<<<<<<<<<<<<<<<<<<<<<读取二进制
 first_parsed = one() # 定义输出数据
 first_parsed.ParseFromString(proto_info_msg) # 从字符串中(二进制)反序列化解析
-# print(first_parsed)
+print("all: ", first_parsed)
 getInfo(first_parsed)  # 输出数据
