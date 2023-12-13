@@ -4,7 +4,7 @@ Author: HCQ
 Company(School): UCAS
 Email: 1756260160@qq.com
 Date: 2023-12-13 18:20:59
-LastEditTime: 2023-12-13 18:21:48
+LastEditTime: 2023-12-13 18:24:45
 FilePath: /python-libraries/09onnx/01generate_onnx.py
 '''
 import onnx 
@@ -31,3 +31,89 @@ model = helper.make_model(graph)
 onnx.checker.check_model(model) 
 print(model) 
 onnx.save(model, 'linear_func.onnx')
+
+'''  
+ir_version: 8
+graph {
+  node {
+    input: "a"
+    input: "x"
+    output: "c"
+    op_type: "Mul"
+  }
+  node {
+    input: "c"
+    input: "b"
+    output: "output"
+    op_type: "Add"
+  }
+  name: "linear_func"
+  input {
+    name: "a"
+    type {
+      tensor_type {
+        elem_type: 1
+        shape {
+          dim {
+            dim_value: 10
+          }
+          dim {
+            dim_value: 10
+          }
+        }
+      }
+    }
+  }
+  input {
+    name: "x"
+    type {
+      tensor_type {
+        elem_type: 1
+        shape {
+          dim {
+            dim_value: 10
+          }
+          dim {
+            dim_value: 10
+          }
+        }
+      }
+    }
+  }
+  input {
+    name: "b"
+    type {
+      tensor_type {
+        elem_type: 1
+        shape {
+          dim {
+            dim_value: 10
+          }
+          dim {
+            dim_value: 10
+          }
+        }
+      }
+    }
+  }
+  output {
+    name: "output"
+    type {
+      tensor_type {
+        elem_type: 1
+        shape {
+          dim {
+            dim_value: 10
+          }
+          dim {
+            dim_value: 10
+          }
+        }
+      }
+    }
+  }
+}
+opset_import {
+  version: 17
+}
+'''
