@@ -63,6 +63,10 @@ C =np.concatenate((A,B,B,A), axis=1) #列操作，横向合并
 #### transformer(huggingface)
 * [10transformers](10transformers)
 
+docs
+* https://github.com/ChuanLeiYang/FourthAICourseExercises
+
+
 
 ---
 
